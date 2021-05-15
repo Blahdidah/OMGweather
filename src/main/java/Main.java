@@ -31,10 +31,10 @@ public class Main {
 
         //WeatherConditions results = gson.fromJson(responseBody, WeatherConditions.class);
         WeatherForecast forecast = gson.fromJson(responseHead, WeatherForecast.class);
-        //WeatherForecastItem item = gson.fromJson(forecast.forecastDisplay(), WeatherForecastItem.class);
+        //WeatherForecastItem item = gson.fromJson(, WeatherForecastItem.class);
 
         //results.display();
-        forecast.forecastDisplay();
+
 
     }
     public String hades(String city, String url) throws IOException {

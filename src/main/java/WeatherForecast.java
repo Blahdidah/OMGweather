@@ -1,14 +1,15 @@
-import com.google.gson.JsonElement;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class WeatherForecast {
-    public ArrayList list;
+    public List<WeatherForecastItem> list;
 
-
-   public ArrayList forecastDisplay(){
+    public List<WeatherForecastItem> getList() {
         return list;
+    }
 
-}
-
+    public void setList(List<WeatherForecastItem> list) {
+        this.list = list;
+    }
 }
